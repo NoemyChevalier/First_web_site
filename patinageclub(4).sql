@@ -55,14 +55,9 @@ CREATE TABLE IF NOT EXISTS `adhérent` (
 --
 
 INSERT INTO `adhérent` (`idadherent`, `login`, `nom`, `prenom`, `age`, `password`, `adresse_postale`, `code_postal`, `email`, `telephone`, `clubpatinage_idclubpatinage`, `groupeentrainement_idgroupeentrainement`, `groupecompetition_idgroupecompetition`, `binomecompetition_idbinomecompetition`) VALUES
-(12, 'noemy1', 'Chevalier', 'Noemy', '19', '$2y$10$yAeATyAuYmtie56JdDB6gu9kjiN1NalK/8OMW3zY/NVx.2hX7br/y', '11bis rue de Boustroff', '57380', 'noemychevalier1@gmail.com', '02222222', NULL, NULL, NULL, NULL),
-(13, 'louise', 'berrada', 'Louise', '22', '$2y$10$J5Azu8Cjkoz8uX6OQeb7b.KgTH3PL0s.3X8FLv089UX2zfyvg2wjO', 'erqgrreregr', 'eqrg', 'qrgq', 'rg', NULL, NULL, NULL, NULL),
-(14, 'nth', 'lantz', 'nathan', '19', '$2y$10$uf9j8HVdtO6USmUWZ7MkoeNWYeOiA.0Uza1789hX3uNAudjBmInza', 'ejsfre', 'r<dgw', '<sg', '<srg', NULL, NULL, NULL, NULL),
-(18, 'ezh', 'ezh', 'ezh', '15', '$2y$10$sqyoPL7NQcjYsa8zTQ8ekusJknxVAHH4k36itypl2Ku6KdLOhWfsi', 'ezh', '54148741', 'ezh@gmail.com', '5811646515', NULL, NULL, NULL, NULL),
-(19, 'efe', 'efe', 'efe', '15', '$2y$10$sxQgrPGmx3BgMUqUtIXT2ulDguVHXYD4GK5i5YMHRNwOOh8g/nH/6', 'efe', '12585', 'efe@gmail.com', '10236548', NULL, NULL, NULL, NULL),
-(20, 'anais128', 'CHEVALIER', 'anais ', '22', '$2y$10$IOz9buBvxBmMStK4Uz79YuU0Tvkbg75RszPxaDxL0MLH4zP0m9g1K', '11bis rue de Boustroff', '57380', 'aniasadelande@gmail.com', '0645879412', NULL, NULL, NULL, NULL);
+(12, 'noemy1', 'Chevalier', 'Noemy', '19', '$2y$10$yAeATyAuYmtie56JdDB6gu9kjiN1NalK/8OMW3zY/NVx.2hX7br/y', '11bis rue de Boustroff', '57380', 'noemychevalier1@gmail.com', '02222222', NULL, NULL, NULL, NULL);
 
--- --------------------------------------------------------
+  -- --------------------------------------------------------
 
 --
 -- Structure de la table `adhérent_has_competition`
@@ -172,28 +167,7 @@ CREATE TABLE IF NOT EXISTS `docadmin` (
 --
 
 INSERT INTO `docadmin` (`iddocadmin`, `login`, `prenom`, `photo_identite`, `licence_adherent`, `certificat_medical`) VALUES
-(1, '', '', NULL, NULL, NULL),
-(2, 'Lantz', 'Nathan', NULL, NULL, NULL),
-(3, 'Chevalier', 'Noemy', NULL, NULL, NULL),
-(4, '', '', NULL, NULL, NULL),
-(5, 'uum', '', NULL, NULL, NULL),
-(6, 'EF', 'FQEF', NULL, NULL, NULL),
-(7, 'qf', 'sjj', NULL, NULL, NULL),
-(8, '', '', NULL, NULL, NULL),
-(9, 'nom1', '', NULL, NULL, NULL),
-(10, 'nom2', 'jrfnr', NULL, NULL, NULL),
-(11, 'noemy1', 'Noemy', NULL, NULL, NULL),
-(12, 'louise', 'Louise', NULL, NULL, NULL),
-(13, 'nth', 'nathan', NULL, NULL, NULL),
-(14, 'test1', 'test1', NULL, NULL, NULL),
-(15, 'test1', '', NULL, NULL, NULL),
-(16, 'essai', 'essai', NULL, NULL, NULL),
-(17, 'essai', 'essai', NULL, NULL, NULL),
-(18, 'essai1', 'essai1', NULL, NULL, NULL),
-(19, 'noemy1', 'noemy1', NULL, NULL, NULL),
-(20, 'ezh', 'ezh', NULL, NULL, NULL),
-(21, 'efe', 'efe', NULL, NULL, NULL),
-(22, 'anais128', 'anais ', NULL, NULL, NULL);
+(1, 'Chevalier', 'Noemy', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
